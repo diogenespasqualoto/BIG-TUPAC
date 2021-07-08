@@ -12,12 +12,11 @@ body {
     color: rgb(21, 21, 228);
     text-align: center;
     --cor-neon: rgb(21, 21, 228);
-    animation: neon 0.2s alternate infinite cubic-bezier(0.51,-1.6, 0, 1.79)clear
-    ;
+    animation: neon 0.2s alternate infinite cubic-bezier(0.51,-1.6, 0, 1.79);
 }
 
 @keyframes neon {
-    from {
+    from {  
       filter: drop-shadow(0 0px 0px var(--cor-neon));
     }
   
